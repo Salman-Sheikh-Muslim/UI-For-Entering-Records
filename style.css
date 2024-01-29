@@ -1,0 +1,255 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    padding: 20px;
+   
+  }
+
+
+  
+ 
+
+  .row-color{
+    background-color: #ffffff;
+    padding: 0 0.75rem;
+    margin-top: 2rem;
+    border: 3rem ;
+    border: 1px solid;
+    border-color: rgb(174, 170, 170);
+    border-radius: 15px;
+  }
+
+  #search-bar{
+    border-radius:5px;
+    padding: 10px 20px;
+  }
+
+  .input-group-text {
+    background-color: #06808b;
+    color: #ffffff;
+    margin-left: 20px;
+    border: none;
+    height: 100%;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  .btn-default {
+    background-color: #06808b;
+    border: none;
+    color: #ffffff;
+    font-size: large;
+    padding: 10px 20px;
+    
+  }
+
+  .btn-default:hover{
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+
+
+  .btn-default i {
+    padding: 4px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Styling for table */
+
+.table{
+    box-sizing: content-box;
+    padding-left: 100px;
+}
+
+.table thead th:first-child {
+    padding-left: 30px; /* Adjust the padding as needed */
+}
+
+.table tbody tr td:first-child {
+    padding-left: 30px; /* Adjust the padding as needed */
+}
+
+
+  
+  .table th, .table td {
+ 
+    text-align: left;
+  }
+  
+
+  .table thead th {
+    background-color: #06808b !important;
+    color: #ffffff;
+    border: none !important;
+    line-height: 3rem;
+    
+
+  }
+  
+  .table tbody tr {
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 3rem;
+  }
+  
+
+  .table td:nth-child(6) i {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    justify-content: flex-end !important;
+    margin: none !important;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #06808b;
+    border-color: #06808b;
+    color: #ffffff;
+  }
+  
+  .pagination .page-item {
+    margin-left: 5px;
+    text-align: center;
+  }
+
+  .pagination a {
+    background-color: #f1f1f2;
+    color: gray;
+    border-radius: 5px !important;
+
+  }
+
+  .pagination a:hover {
+    background-color: white;
+    color: gray;
+  }
+
+  .col-md-8, .col-md-4{
+    margin-top: 10px;
+  }
+
+  .fa-edit, .fa-trash{
+    color: #0ba8a0;
+
+  }
+ 
+
+.border-up-left{
+    border-top-left-radius: 15px;
+}
+
+.border-up-right{
+    border-top-right-radius: 15px;
+}
+
+
+.pn-links{
+    min-width: 5rem;
+}
+
+  @media screen and (max-width: 630px) {
+    .container {
+      padding: 10px;
+    }
+
+    .row-color #table-row{
+      margin-top: 1rem;
+      padding: 0 0.5rem;
+      overflow-x: auto;
+    }
+
+
+    .table {
+      width: auto;
+      max-width: 100%;
+    }
+
+    .table th, .table td {
+        padding: 8px;
+        white-space: nowrap;
+      }
+
+    #search-bar {
+      width: 80%;
+    }
+
+
+
+    .input-group-text {
+      margin-left: 10px;
+    }
+
+    .btn-default {
+      font-size: medium;
+    }
+
+    .table thead th {
+      font-size: small;
+    }
+
+    .table tbody tr {
+      font-size: small;
+    }
+
+    .table td {
+      padding: 8px;
+    }
+
+    .pagination .page-item{
+        width: 50%;
+        text-align: center;
+        font-size: smaller;
+        border-radius: 10px;
+        margin-left: 3px;
+          
+    }
+
+    .pagination .page-item a{
+        font-size: smaller;
+    }
+    
+    .row .col-md-12 .pagination{
+        display: flex;
+        margin-right: -7px;
+    }
+
+    .pn-links{
+        min-width: 3.9rem;
+    }
+
+ 
+}
+
+@media screen and (min-width: 631px) and (max-width: 990px) {
+
+ 
+    .row-color #table-row{
+        margin-top: 1rem;
+        padding: 0 0.5rem;
+        overflow-x: auto;
+      }
+
+    .table th, .table td {
+        padding: 8px;
+        white-space: nowrap; 
+      }
+      
+      .pn-links{
+        min-width: 5rem;
+    }
+  
+  }

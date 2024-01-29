@@ -1,0 +1,310 @@
+/* Apply Bootstrap styling where possible */
+
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    padding: 20px;
+   
+  }
+
+
+  
+ 
+
+  .row-color{
+    background-color: #ffffff;
+    padding: 0 0.75rem;
+    margin-top: 3rem;
+    border: 3rem ;
+    border: 1px solid;
+    border-color: rgb(174, 170, 170);
+    border-radius: 15px;
+  }
+
+  #search-bar{
+    border-radius:5px;
+  }
+
+  .input-group-text {
+    background-color: #06808b;
+    color: #ffffff;
+    margin-left: 20px;
+    border: none;
+    height: 100%;
+  }
+  
+  .btn-default {
+    background-color: #06808b;
+    border: none;
+    color: #ffffff;
+    font-size: large;
+    
+  }
+
+  .btn-default:hover{
+    background-color: #000000;
+  }
+
+  .btn-default i {
+    padding: 4px;
+    border-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-right: 2px;
+  }
+  
+  /* Styling for table */
+ .table {
+    width: 100%;
+
+    /*border-collapse: separate;
+    border-spacing: 0 15px;*/
+}
+
+
+
+  
+  .table th, .table td {
+    text-align: left;
+  }
+  
+
+  .table thead th {
+    background-color: #06808b !important;
+    color: #ffffff;
+    border: none;
+    line-height: 3rem;
+    
+
+  }
+  
+  .table tbody tr {
+    background-color: #ffffff;
+    color: #000000;
+    line-height: 3rem;
+  }
+  
+  /* Styling for PHONE NUMBER column 
+  .table td:nth-child(4) {
+    white-space: nowrap;
+  }
+  
+  /* Styling for DATE ADDED column 
+  .table td:nth-child(5) {
+    white-space: nowrap;
+  }*/
+  
+  /* Styling for ACTION column icons */
+  .table td:nth-child(6) i {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  /* Styling for pagination */
+  .pagination {
+    justify-content: flex-end !important;
+    margin: none !important;
+  }
+  
+  .pagination .page-item.active .page-link {
+    background-color: #06808b;
+    border-color: #06808b;
+    color: #ffffff;
+  }
+  
+  .pagination .page-item {
+    border-radius: 10px;
+    margin-left: 5px;
+  }
+
+  .pagination a {
+    background-color: #f1f1f2;
+    color: gray;
+  }
+
+  .pagination a:hover {
+    background-color: white;
+    color: gray;
+  }
+
+  .col-md-6{
+    margin-top: 10px;
+  }
+
+  .fa-edit, .fa-trash{
+    color: #0ba8a0;
+
+  }
+ 
+
+.border-up-left{
+    border-top-left-radius: 15px;
+}
+
+.border-up-right{
+    border-top-right-radius: 15px;
+}
+
+
+/*@media screen and (max-width: 767px) {
+
+
+    /* Adjust the styling for smaller screens here
+    .container {
+      padding: 10px;
+      width: 100%;
+    }
+  
+    .row-color {
+      margin-top: 1rem;
+      padding: 0 0.5rem;
+    }
+
+   
+
+    .table {
+        overflow: visible;
+      }
+  
+    #search-bar {
+      width: 80%;
+    }
+  
+    .col-md-6 {
+      margin-top: 5px;
+    }
+  
+    .input-group-text {
+      margin-left: 10px;
+    }
+  
+    .btn-primary {
+      font-size: medium;
+    }
+  
+    .table thead th {
+      font-size: small;
+    }
+  
+    .table tbody tr {
+      font-size: small;
+    }
+  
+    .table td {
+      padding: 8px;
+    }
+  
+    .table td:nth-child(6) i {
+      margin-right: 2px;
+    }
+  
+    .pagination {
+      justify-content: center;
+      margin-top: 10px;
+    }
+  
+    .pagination .page-item {
+      margin-left: 2px;
+    }
+  }
+  */
+
+
+
+
+  @media screen and (max-width: 630px) {
+    /* Adjust the styling for smaller screens here */
+    .container {
+      padding: 10px;
+    }
+
+    .row-color #table-row{
+      margin-top: 1rem;
+      padding: 0 0.5rem;
+      overflow-x: auto;
+    }
+
+
+    .table {
+      width: auto;
+      max-width: 100%;
+    }
+
+    .table th, .table td {
+        padding: 8px;
+        white-space: nowrap; /* Prevent column wrapping */
+      }
+
+    #search-bar {
+      width: 80%;
+    }
+
+    .col-md-6 {
+      margin-top: 5px;
+    }
+
+    .input-group-text {
+      margin-left: 10px;
+    }
+
+    .btn-default {
+      font-size: medium;
+    }
+
+    .table thead th {
+      font-size: small;
+    }
+
+    .table tbody tr {
+      font-size: small;
+    }
+
+    .table td {
+      padding: 8px;
+    }
+
+    .table td:nth-child(6) i {
+      margin-right: 2px;
+    }
+
+
+
+
+    .pagination .page-item{
+        width: 50%;
+        font-size: smaller;
+        border-radius: 10px;
+        margin-left: 3px;
+          
+    }
+
+    .pagination .page-item a{
+        font-size: smaller;
+    }
+
+
+ 
+}
+
+@media screen and (min-width: 631px) and (max-width: 990px) {
+
+ 
+    .row-color #table-row{
+        margin-top: 1rem;
+        padding: 0 0.5rem;
+        overflow-x: auto;
+      }
+
+    .table th, .table td {
+        padding: 8px;
+        white-space: nowrap; /* Prevent column wrapping */
+      }
+  
+  }
